@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "months_active",
+    "importance": 0.11327726393938065
+  },
+  {
+    "feature": "tenure_days",
+    "importance": 0.05602610483765602
+  },
+  {
+    "feature": "avg_adoption_3m",
+    "importance": 0.0399150587618351
+  },
+  {
+    "feature": "avg_api_calls",
+    "importance": 0.03867680951952934
+  },
+  {
+    "feature": "plan_tier_enc",
+    "importance": 0.036989785730838776
+  },
+  {
+    "feature": "avg_csat",
+    "importance": 0.03686137497425079
+  },
+  {
+    "feature": "late_payment_count",
+    "importance": 0.03618721291422844
+  },
+  {
+    "feature": "avg_sessions_3m",
+    "importance": 0.03561641275882721
+  },
+  {
+    "feature": "avg_sessions_all",
+    "importance": 0.033084750175476074
+  },
+  {
+    "feature": "total_tickets",
+    "importance": 0.032762736082077026
+  },
+  {
+    "feature": "company_size_enc",
+    "importance": 0.031838059425354004
+  },
+  {
+    "feature": "avg_adoption_all",
+    "importance": 0.030464503914117813
+  },
+  {
+    "feature": "adoption_trend",
+    "importance": 0.029471930116415024
+  },
+  {
+    "feature": "high_priority_tickets",
+    "importance": 0.027996167540550232
+  },
+  {
+    "feature": "avg_resolution_hours",
+    "importance": 0.02701433002948761
+  }
+]

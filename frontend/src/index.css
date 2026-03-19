@@ -1,0 +1,28 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:         #0f1117;
+  --surface:    #1a1d27;
+  --border:     #2a2d3a;
+  --text:       #e2e8f0;
+  --muted:      #64748b;
+  --primary:    #6366f1;
+  --success:    #10b981;
+  --warning:    #f59e0b;
+  --danger:     #ef4444;
+  --critical:   #dc2626;
+}
+
+body {
+  background:   var(--bg);
+  color:        var(--text);
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size:    14px;
+  line-height:  1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

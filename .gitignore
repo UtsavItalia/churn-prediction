@@ -1,0 +1,41 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/**/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model artifacts (large binary files)
+backend/artifacts/*.pkl
+backend/artifacts/*.json
+
+# Data (never commit raw data)
+backend/data/*.csv
+backend/data/*.parquet
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+uvicorn.log
